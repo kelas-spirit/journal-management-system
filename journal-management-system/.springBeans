@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beansProjectDescription>
+	<version>1</version>
+	<pluginVersion><![CDATA[3.6.4.201503051146-RELEASE]]></pluginVersion>
+	<configSuffixes>
+		<configSuffix><![CDATA[xml]]></configSuffix>
+	</configSuffixes>
+	<enableImports><![CDATA[false]]></enableImports>
+	<configs>
+	</configs>
+	<autoconfigs>
+		<config>src/main/webapp/WEB-INF/aop-config.xml</config>
+		<config>src/main/webapp/WEB-INF/dms-servlet.xml</config>
+		<config>src/main/webapp/WEB-INF/security-config.xml</config>
+		<config>src/main/webapp/WEB-INF/persistance-config.xml</config>
+		<config>src/main/webapp/WEB-INF/beans-config.xml</config>
+	</autoconfigs>
+	<configSets>
+	</configSets>
+</beansProjectDescription>

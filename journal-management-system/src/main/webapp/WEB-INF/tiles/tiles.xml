@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+"http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+
+	<!--	Base layouts start -->
+	<definition name="template" template="/WEB-INF/views/templates/mainTemplate.jsp">
+		<put-attribute name="top" value="/WEB-INF/views/includes/header.jsp" />
+		<put-attribute name="topTabs" value="/WEB-INF/views/includes/topTabs.jsp"/>
+		<put-attribute name="side"
+			value="/WEB-INF/views/includes/navigation.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/views/includes/footer.jsp" />
+	</definition>
+
+	<definition name="fullPageTemplate"
+		template="/WEB-INF/views/templates/mainTableTemplate.jsp">
+		<put-attribute name="topTabs" value="/WEB-INF/views/includes/topTabs.jsp"/>
+		<put-attribute name="top" value="/WEB-INF/views/includes/header.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/views/includes/footer.jsp" />
+	</definition>
+	
+	<!--	Base layouts end -->
+
+	<definition name="login" extends="template">
+		<put-attribute name="title" value="Home" />
+		<put-attribute name="content" value="/WEB-INF/pages/loginPage.jsp" />
+	</definition>
+	
+
+<definition name="welcome" extends="template">
+		<put-attribute name="title" value="Welcome Page" />
+		<put-attribute name="content" value="/WEB-INF/pages/welcome.jsp" />
+	</definition>
+	
+	<definition name="createMagazine" extends="template">
+		<put-attribute name="title" value="Create Magazine" />
+		<put-attribute name="content" value="/WEB-INF/pages/createMagazine.jsp" />
+	</definition>
+	
+	<definition name="changecategory" extends="template">
+		<put-attribute name="title" value="Create Magazine" />
+		<put-attribute name="content" value="/WEB-INF/pages/selectedCategory.jsp" />
+	</definition>
+	
+	<definition name="articlelist" extends="template">
+		<put-attribute name="title" value="Articles" />
+		<put-attribute name="content" value="/WEB-INF/pages/articlelist.jsp" />
+	</definition>
+	
+	<definition name="articlecreate" extends="template">
+		<put-attribute name="title" value="Article Create" />
+		<put-attribute name="content" value="/WEB-INF/pages/articlecreate.jsp" />
+	</definition>
+	
+	<definition name="articlefullpage" extends="template">
+		<put-attribute name="title" value="Article Create" />
+		<put-attribute name="content" value="/WEB-INF/pages/articlefullpage.jsp" />
+	</definition>
+	
+	<definition name="listDocs" extends="template">
+		<put-attribute name="title" value="Latest Documents" />
+		<put-attribute name="content" value="/WEB-INF/pages/listDocuments.jsp" />
+	</definition>
+	
+	<definition name="index" extends="template">
+		<put-attribute name="title" value="Latest Documents" />
+		<put-attribute name="content" value="/WEB-INF/pages/index.jsp" />
+	</definition>
+	
+	
+	<definition name="publicFileDownload" extends="template">
+		<put-attribute name="title" value="Download Public File" />
+		<put-attribute name="content" value="/WEB-INF/pages/publicFileDownload.jsp" />
+	</definition>
+	
+
+	<definition name="errorView" extends="template">
+		<put-attribute name="title" value="Error" />
+		<put-attribute name="content" value="/WEB-INF/pages/errorView.jsp" />
+	</definition>
+	
+	<definition name="Error" extends="template">
+		<put-attribute name="title" value="Error" />
+		<put-attribute name="content" value="/WEB-INF/pages/errorView.jsp" />
+	</definition>
+	
+
+	<definition name="Registration" extends="template">
+		<put-attribute name="title" value="registration" />
+		<put-attribute name="content" value="/WEB-INF/pages/registration.jsp" />
+	</definition>
+	
+	<definition name="subscribed" extends="template">
+		<put-attribute name="title" value="registration" />
+		<put-attribute name="content" value="/WEB-INF/pages/subscribed.jsp" />
+	</definition>
+	
+	<definition name="nosubscribed" extends="template">
+		<put-attribute name="title" value="registration" />
+		<put-attribute name="content" value="/WEB-INF/pages/nosubscribed.jsp" />
+	</definition>
+	
+	<definition name="users" extends="template">
+		<put-attribute name="title" value="user list" />
+		<put-attribute name="content" value="/WEB-INF/pages/users.jsp" />
+	</definition>
+	
+	<definition name="userSearch" extends="template">
+		<put-attribute name="title" value="Show User by search query" />
+		<put-attribute name="content" value="/WEB-INF/pages/userSearch.jsp" />
+	</definition>
+	
+	<definition name="couponSend" extends="template">
+		<put-attribute name="title" value="send coupon]" />
+		<put-attribute name="content" value="/WEB-INF/pages/couponSend.jsp" />
+	</definition>
+	
+	<definition name="couponResult" extends="template">
+		<put-attribute name="title" value="Result coupon" />
+		<put-attribute name="content" value="/WEB-INF/pages/couponResult.jsp" />
+	</definition>
+	
+	<definition name="couponlist" extends="template">
+		<put-attribute name="title" value="Result coupon" />
+		<put-attribute name="content" value="/WEB-INF/pages/userCouponList.jsp" />
+	</definition>
+	
+	<definition name="subscribeprepear" extends="template">
+		<put-attribute name="title" value="Result coupon" />
+		<put-attribute name="content" value="/WEB-INF/pages/subscribeprepear.jsp" />
+	</definition>
+	
+	<definition name="subscriberesult" extends="template">
+		<put-attribute name="title" value="Result subscribe" />
+		<put-attribute name="content" value="/WEB-INF/pages/subscriberesult.jsp" />
+	</definition>
+	<definition name="subresult" extends="template">
+		<put-attribute name="title" value="Result subscribe" />
+		<put-attribute name="content" value="/WEB-INF/pages/subscriberesult.jsp" />
+	</definition>
+	<definition name="courier" extends="template">
+		<put-attribute name="title" value="Result subscribe" />
+		<put-attribute name="content" value="/WEB-INF/pages/courier.jsp" />
+	</definition>
+	
+	<definition name="Registration" extends="template">
+		<put-attribute name="title" value="registration" />
+		<put-attribute name="content" value="/WEB-INF/pages/registration.jsp" />
+	</definition>
+	<definition name="RegistrationError" extends="template">
+		<put-attribute name="title" value="registration" />
+		<put-attribute name="content" value="/WEB-INF/pages/registrationerror.jsp" />
+	</definition>
+	
+</tiles-definitions>

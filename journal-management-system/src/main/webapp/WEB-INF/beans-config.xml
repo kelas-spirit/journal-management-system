@@ -1,0 +1,62 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:websocket="http://www.springframework.org/schema/websocket"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans     
+        http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+        http://www.springframework.org/schema/context 
+        http://www.springframework.org/schema/context/spring-context-3.0.xsd
+        http://www.springframework.org/schema/websocket
+        http://www.springframework.org/schema/websocket/spring-websocket-4.0.xsd
+        http://www.springframework.org/schema/mvc
+		http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd">
+
+    <!--  
+    <websocket:handlers>
+        <websocket:mapping path="/chat" handler="chatWebSocketHandler"/>
+        <websocket:sockjs/>
+    </websocket:handlers>
+   
+    <bean id="chatWebSocketHandle" class="gr.shmmy.ntua.dms.web.config.WebConfig"/>
+ -->
+	<bean id="loginController" class="gr.shmmy.ntua.dms.web.LoginController" />
+
+	<bean id="documentService" class="gr.shmmy.ntua.dms.service.DocumentService"/>
+	
+	<bean id="documentDao" class="gr.shmmy.ntua.dms.dao.DocumentDaoImpl"/>
+	
+	<bean id="UserService" class="gr.shmmy.ntua.dms.service.UserService"/>
+	
+	<bean id="UserDao" class="gr.shmmy.ntua.dms.dao.UserDaoImpl"/>
+	
+	<bean id="categoryDao" class="gr.shmmy.ntua.dms.dao.CategoryDaoImpl"/>
+	
+	<bean id="categoryService" class="gr.shmmy.ntua.dms.service.CategoryService"/>
+	
+	<bean id="metadataRangeDao" class="gr.shmmy.ntua.dms.dao.MetadataRangeDaoImpl"/>
+	
+	<bean id="metadataRangeService" class="gr.shmmy.ntua.dms.service.MetadataRangeService"/>
+	
+	<bean id="articleDao" class="gr.shmmy.ntua.dms.dao.ArticleDaoImpl"/>
+
+   <bean id="articleService" class="gr.shmmy.ntua.dms.service.ArticleService"/>
+   
+   <bean id="subscriptionDao" class="gr.shmmy.ntua.dms.dao.SubscriptionDaoImpl"/>
+
+   <bean id="subscriptionService" class="gr.shmmy.ntua.dms.service.SubscriptionService"/>
+   
+   <bean id="commentDao" class="gr.shmmy.ntua.dms.dao.CommentDaoImpl"/>
+
+   <bean id="commentService" class="gr.shmmy.ntua.dms.service.CommentService"/>
+   
+   <bean id="couponDao" class="gr.shmmy.ntua.dms.dao.CouponDaoImpl"/>
+
+   <bean id="couponService" class="gr.shmmy.ntua.dms.service.CouponService"/>
+   
+	<!--  
+	<bean id="chatService" class="gr.shmmy.ntua.dms.web.service.ChatService"/>
+	-->
+	
+</beans>

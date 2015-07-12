@@ -1,0 +1,35 @@
+@CHARSET "UTF-8";
+#button {
+display: block;
+background: white;
+padding: 0;
+
+border-radius:6px;
+text-align: left;
+outline: 0;
+text-decoration:none;
+color: blue;
+border:none;
+float: left;
+    
+}
+ #button:hover{
+   background: #F8F8F8 ; 
+    text-decoration:underline;
+    cursor:pointer;
+}
+
+#submit {
+display: block;
+background: white;
+padding: 0;
+font-size: 1.2em;
+border-radius:6px;
+text-align: left;
+outline: 0;
+text-decoration:none;
+color: blue;
+border:none;
+float: left;
+    
+}

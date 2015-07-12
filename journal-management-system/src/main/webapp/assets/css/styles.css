@@ -1,0 +1,195 @@
+#container {
+	width: 100%;
+	/*background-color: #FFFFFF;*/
+}
+
+#header {
+	width: 100%;
+	height: 20%;
+	background-color: white;
+	/*border-style:outset;
+	border-bottom-width:1px;*/
+}
+
+#uname{
+position:absolute;
+right:5px;
+top:17%;
+color:green;	
+}
+#dms_header{
+	text-align:left;
+	color: #0066FF;
+}
+#pencil{
+	top:10px;
+	position:absolute;
+	right:8%;
+	
+}
+
+
+.topTabs {
+	width: 100%;
+	height: 10px;
+	/*background-color: #321900;*/
+	background-color:white; /*#0066FF;*/
+	color: #ffffff;
+}
+
+.content-container {
+	width: 100%;
+	/*background-color: #FFFFFF;*/
+}
+
+.side {
+	position:fixed;
+	width: 10%;
+	height: 40px;
+	/*background-color:blue; /*#321900;*/
+	/*float: left;*/
+	left:5px;
+	margin-top:45px;
+	color:white;
+}
+
+.content {
+	width: 83%;
+	float: right;
+	background-color:white;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	 /* #F2F2F2;*/
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+.content p {
+	color: #767676;
+}
+
+.page-footer {
+	top:150%;
+	position:absolute;
+	height: 50px;
+	width: 100%;
+	background-color: #C8C8C8  ;
+}
+
+.page-footer .footer {
+	background-color: #C8C8C8 ;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	color: #ffffff;
+}
+
+BODY {
+
+	font-family: verdana, arial, sans-serif;
+	font-size: 12px;
+}
+
+
+TABLE,TR,TD,H6,H5,H4,H3,H2,H1,A {
+	font-family: verdana, arial, sans-serif;
+	font-size: 13px;
+}
+
+FORM INPUT,TEXTAREA {
+	/*width: 300px;*/
+	font-family: verdana, arial, sans-serif;
+	font-size: 12;
+}
+
+H3 {
+	background-color: #FFB8A6;
+	color: #000000;
+	padding: 5px 5px 5px 5px;
+}
+
+a img {
+	border: none;
+}
+
+.button {
+	display: inline-block;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 14px/ 100% Arial, Helvetica, sans-serif;
+	padding: .5em 2em .55em;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+	-webkit-border-radius: .5em;
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+	-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+}
+
+.loginTable {
+	width: 400px;
+	background-color: #FFFFFF;
+	position:absolute;
+	/*margin-top: 100px;
+	margin-bottom: 150px;
+	margin-left: auto;
+	margin-right: auto;*/
+	left:10%;
+	top:40%;
+	color:#0066FF;
+	text-decoration:none;
+	
+}
+
+.loginTable INPUT {
+	width: 200px;
+	background-color: #FFFFFF;
+}
+.folderTable{
+
+	}
+
+.message {
+	padding-top: 15px;
+	padding-left: 10px;
+	width: 99%;
+	height: 40px;
+	vertical-align: middle;
+	color: #FFFFFF;
+	background-color: #FF704D;
+	font-weight: bold;
+}
+
+.odd {
+	background-color: #F8F8F8 ; /**/
+}
+
+.even {
+	background-color: white;
+}
+
+.error {
+	font: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: red;
+}
+
+#message {
+	width: 100%;
+	height: 50px;
+	background-color: #FFE6E6;
+	vertical-align: middle;
+	text-align: left;
+}
+#errors{
+	color:red;
+	font-size:85%;
+}

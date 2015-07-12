@@ -1,0 +1,11 @@
+#box_form > *{
+    font-size:12px;
+    margin-bottom:15px;
+}
+#box_form > p > label{
+    display:block;
+    font-size:18px;
+}
+#box_form > p > input, #box_form > p > textarea{
+        width:300px;
+}
